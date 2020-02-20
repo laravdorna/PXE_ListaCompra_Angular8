@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ProductosComponent } from './productos/productos.component';
 import {FormsModule} from '@angular/forms';
+import { ProductoBComponent } from './producto-b/producto-b.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductosComponent
+    ProductosComponent,
+    ProductoBComponent
   ],
   imports: [
     BrowserModule,
